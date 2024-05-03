@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+    width: 100vw;
+}
+div {
+    width: 100%;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+span {
+    color: lightskyblue;
+    font-weight: bold;
+}
+#menu {
+    background: lightblue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu img {
+    margin: 30px 0 10px 0;
+    width: 150px;
+    height: 150px;
+}
+#menu ul {
+    margin: 30px 40px 0 0;
+    width: 400px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#menu li {
+    color: darkblue;
+}
+#menu a {
+    font-size: 17px;
+    color: blue;
+    text-decoration: none;
+}
+#casa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#casa img {
+    width: 75%;
+    margin: 50px 0px 50px 0px;
+    height: 500px;
+}
+#sobre {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sobre h2 {
+    margin-top: 0;
+    color: lightskyblue;
+    height: 20px;
+}
+#sobre img {
+    height: 300px;
+    width: 500px;
+}
+#sobre p {
+    color: black;
+    width: 70vw;
+    text-align: justify;
+    line-height: 30px;
+}
+#servico {
+    background: lightskyblue;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#servico p {
+    margin-top: 20px;
+    width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+}
+#servico h2 {
+    margin-top: 50px;
+    display: flex;
+    height: 40px;
+}
+#servico span {
+    color: yellow;
+}
+#servico ul {
+    font-size: 25px;
+    line-height: 2;
+}
+#corretores {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#corretores h2 {
+    margin: 70px 0px 0px 0px;
+    color: lightskyblue;
+}
+#corretores img {
+    margin: 30px 0 0 0 ;
+    width: 35%;
+}
+#corretores p {
+    margin: 15px 0 0 0;
+    width: 75%;
+    height: 100px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 15px;
+    color:  black;
+}
+#corretores a {
+    color: blue;
+}
+#contato {
+    background: lightskyblue;
+    height: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contato iframe {
+    width: 50%;
+    height: 60%;
+}
+#contato p {
+    background-color: black;
+    margin: 30px 0 0 0;
+    padding: 15px 20px
+}
+#contato span {
+    color: yellow
+}
+#contato ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contato li {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#contato a {
+    color: blue;
+    text-decoration: none;
+}
